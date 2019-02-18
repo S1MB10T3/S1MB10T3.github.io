@@ -1,0 +1,24 @@
+---
+title: Contact
+layout: default
+gif: skype.gif
+---
+
+<div class="row">
+    <form class="contactform" action="https://formspree.io/hello@cozy.nyc" method="POST">
+        <input type="text" name="name" placeholder="your name..." required>
+        <br />
+        <input type="email" name="_replyto" placeholder="your email..." required>
+        <br />
+        <textarea name="message" placeholder="your message..." required></textarea>
+        <br />
+        <input type="hidden" name="_next" value="//cozy.nyc" />
+        <input type="hidden" name="_subject" value="cozy.nyc" />
+        <input type="submit" value="Send">
+    </form>
+</div>
+
+<div class="row">
+  {% include icons/twitter.html %}
+  {% include icons/linkedin.html %}
+</div>

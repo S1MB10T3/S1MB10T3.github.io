@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<head>
+  <link href="../index.css" rel="stylesheet">
+  <link href="../../assets/css/fullscreen.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+  <script type="text/javascript" src="../../assets/js/scrolloverflow.js"></script>
+
+  <script type="text/javascript" src="../../assets/js/fullscreen.js"></script>
+  <script type="text/javascript" src="../index.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        css3: true,
+        continuousVertical: true,
+        scrollBar: true,
+        menu: '#back'
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  {{ content }}
+
+</body>
+
+</html>

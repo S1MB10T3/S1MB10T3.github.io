@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <link href="index.css" rel="stylesheet">
+<body>
+  <div id="header">
+    <nav class="intro-nav">
+      <a onclick="goBack()">>back</a>
+      <h1>{{ page.title }}
+    </nav>
+    <img id="headerMedia" class="headerimg" src="/assets/img/{{ page.image }}">
+  </div>
+  <div id="content">
+      {{ content }}
+  </div>
+</body>
+</html>

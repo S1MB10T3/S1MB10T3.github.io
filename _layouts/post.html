@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+<body>
+  <div class="row">
+    <div id="header">
+      <nav class="intro-nav">
+        <a onclick="goBack()">>back</a>
+      </nav>
+      <br />
+      <img id="headerMedia" class="headerimg" src="/assets/img/{{ page.image }}">
+    </div>
+  </div>
+  <div class="row">
+    <div id="content">
+      <article id="message">
+        {{ content }}
+      </article>
+    </div>
+  </div>
+</body>
+
+</html>
