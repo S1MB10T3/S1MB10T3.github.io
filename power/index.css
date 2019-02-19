@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+html, body{
+  height: 100%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #676767;
+  color: #f4f1f8;
+}
+
+/* Text */
+h1 {
+  font-size: 250%;
+}
+
+a, a:visited {
+  color: #73d2f2;
+}
+
+a:hover {
+  color: #f4f1f8;
+}
+
+p {
+  font-size: 150%;
+  font-weight: 700;
+}
+
+
+
+/*  */
+.section {
+  text-align: left;
+  padding:0 10%;
+}
+
+.header {
+  height: 80%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.feature-box {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-box p {
+  opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 0;
+  margin: 0;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.feature-box img {
+  width: 100%;
+}
+
+.paragraph {
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px;
+
+}
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/**/
+#section0 {
+  text-align: center;
+}
+
+/* Objects */
+
+#logo svg {
+  fill: #fff;
+}

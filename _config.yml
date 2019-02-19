@@ -7,10 +7,14 @@ description: ...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "S1MB10T3.net" # the base hostname & protocol for your site, e.g. http://example.com
 
-plugins: [jekyll-paginate]
 
-paginate: 6
-paginate_path: "blog/page:num/"
-
-# Build settings
-markdown: kramdown
+collections:
+  post:
+    output: true
+    permalink: /blog/:title
+  gallery:
+    output: true
+    permalink: /:title
+  projects:
+    output: true
+    permalink: /project/:title

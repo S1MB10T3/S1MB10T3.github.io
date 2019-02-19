@@ -1,0 +1,23 @@
+---
+title: Projects
+layout: default
+gif: think.gif
+permalink: /projects/
+---
+<div class="row">
+  <h2>GitHub</h2>
+  <p>Most of my works can be found on my github <a href="https://github.com/S1MB10T3">@S1MB10T3</a> </p>
+</div>
+
+<div class="row">
+  <div id="feed">
+    <!-- This loops through the paginated posts -->
+    {% for project in site.projects %}
+    <div>
+      <a href="{{ project.url }}">
+        {{ project.title }}
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
