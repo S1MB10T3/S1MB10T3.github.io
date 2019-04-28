@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Warm Winter Fasion"
-image: 404.gif
+title:  "Warm Winter Fashion"
+image: 2.gif
 categories: blog
 tag: "Fit weather..."
 ---

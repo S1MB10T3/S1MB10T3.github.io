@@ -6,17 +6,17 @@ permalink: /blog/
 
 <p> Just click a gif! </p>
 
-<div class="row">
-  <div id="feed">
-    <!-- This loops through the paginated posts -->
-    {% for post in site.posts %}
-    <span class="four columns">
-      <a href="{{ post.url }}">
-      <img class="featuredimg" src="/assets/img/{{ post.image }}">
-      </a>
-    </span>
-    {% endfor %}
+<div class="container">
+  <div class="row">
+    <div id="feed">
+      <!-- This loops through the paginated posts -->
+      {% for post in site.posts %}
+      <span class="four columns">
+        <a href="{{ post.url }}">
+        <img class="featuredimg" src="/assets/img/{{ post.image }}">
+        </a>
+      </span>
+      {% endfor %}
+    </div>
   </div>
 </div>
-
-<br />

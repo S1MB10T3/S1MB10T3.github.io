@@ -7,16 +7,18 @@ permalink: /gallery/
 
 <p> Just click a gif! </p>
 
-<div class="row">
-  <div id="feed">
-    <!-- This loops through the paginated posts -->
-    {% for art in site.gallery %}
-    <span class="12 columns">
-      <a href="{{ art.url }}">
-      <img class="featuredimg" src="/assets/img/{{ art.image }}">
-      </a>
-    </span>
-    {% endfor %}
+<div class="container">
+  <div class="row">
+    <div id="feed">
+      <!-- This loops through the paginated posts -->
+      {% for art in site.gallery %}
+      <span class="four columns">
+        <a href="{{ art.url }}">
+        <img class="featuredimg" src="/assets/img/{{ art.image }}">
+        </a>
+      </span>
+      {% endfor %}
+    </div>
   </div>
 </div>
 

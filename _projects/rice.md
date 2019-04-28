@@ -1,7 +1,8 @@
 ---
 layout: project
-title: GNU/Linux RICE
+title: M!lk
 image: rice-screenshot.png
+order: 0
 ---
 
 

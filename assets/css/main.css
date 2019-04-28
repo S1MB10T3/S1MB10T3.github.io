@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi|Open+Sans');
+
 html {
 	cursor: default;
-	font-family: serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #000;
 }
 
@@ -21,35 +23,60 @@ a:hover {
 	color: #b0129b;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Gugi', sans-serif;
+}
+
+p img {
+	width: 60%;
+}
+
 header {
 	padding-bottom: 20px;
 }
 
-img {
-	max-height: 60% !important;
-	max-width: 60%
+.row {
+	margin: 0 auto;
+}
+
+/* Home Page */
+nav a {
+	padding: 0 5px;
+}
+
+
+/* Project Page */
+.projectTitle{
+	display: block;
 }
 
 #headerMedia {
-	/*width: 60%;*/
+	width: 60%;
 }
 
-#content {
-	padding: 0 10%
-}
 
 .featuredimg {
+	position: relative;
 	width: 200px;
 	height: 200px;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	-webkit-transition: filter 0.33s;
 	transition: filter 0.33s;
+	overflow: hidden;
+	display: inline-block;
 }
 
 .featuredimg:hover {
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(0%);
+}
+
+.featuredimg img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 200px;
 }
 
 #message {
