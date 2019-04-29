@@ -1,6 +1,7 @@
 ---
 title: BUGS NYU
 layout: project
+logo: bugs.png
 image: bugshome.png
 order: 1
 ---

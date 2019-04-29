@@ -1,6 +1,7 @@
 ---
 title: cozy.nyc
 layout: project
+logo: cozy.png
 image: cozyhome.png
 order: 0
 ---

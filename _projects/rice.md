@@ -1,6 +1,7 @@
 ---
 layout: project
 title: M!lk
+logo: m1lk.png
 image: rice-screenshot.png
 order: 0
 ---

@@ -1,6 +1,7 @@
 ---
 title: Unity
 layout: project
+logo: unity.png
 image: unity.png
 order: 0
 ---
