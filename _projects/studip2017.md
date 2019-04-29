@@ -2,7 +2,7 @@
 title: Stupid Hackathon
 layout: project
 logo: stupid.png
-image: stupid17.png
+image: stupid.png
 order: 2
 ---
 
