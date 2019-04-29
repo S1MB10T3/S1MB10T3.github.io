@@ -6,24 +6,30 @@ permalink: /projects/
 ---
 
 <div class="container">
+
   <div class="row">
-    <h2>GitHub</h2>
-    <p>Most of my works can be found on my github <a href="https://github.com/S1MB10T3">@S1MB10T3</a> </p>
+    Just click an image!
   </div>
+
   <div class="row">
     <div id="feed">
       <!-- This loops through the paginated posts -->
       {% assign sorted = site.projects | sort: 'order' %}
       {% for project in sorted %}
         <span class="four columns">
-          <a href="{{ project.url }}">
-            <div class="featuredimg" >
+          <a class="featuredimg" href="{{ project.url }}">
               <img src="/assets/img/{{ project.logo }}">
-            </div>
             <!-- <p class="projectTitle">{{ project.title }}</p> -->
           </a>
         </span>
       {% endfor %}
     </div>
   </div>
+
+  <div class="row">
+    <h2>GitHub</h2>
+    <p>Most of my works can be found on my github <a href="https://github.com/S1MB10T3">@S1MB10T3</a> </p>
+    <p>Some contrubitions might be missing on github due to a username and email change...</p>
+  </div>
+
 </div>

@@ -13,8 +13,8 @@ permalink: /gallery/
       <!-- This loops through the paginated posts -->
       {% for art in site.gallery %}
       <span class="four columns">
-        <a href="{{ art.url }}">
-        <img class="featuredimg" src="/assets/img/{{ art.image }}">
+        <a class="featuredimg" href="{{ art.url }}">
+          <img src="/assets/img/{{ art.image }}">
         </a>
       </span>
       {% endfor %}
