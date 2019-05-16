@@ -2,15 +2,16 @@
 layout: blank
 title: Verfiy Me
 ---
-<script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.0/aframe/build/aframe-ar.js"></script>
+
+<script src=”https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src=”https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
     <a-scene embedded arjs>
       <a-marker preset="hiro">
+
           <a-entity
-            scale="0.01 0.01 0.01"
-            obj-model=”obj: url(city.obj);
-            mtl: url(city.mtl)”>
+            obj-model=”obj: url(https://raw.githubusercontent.com/S1MB10T3/S1MB10T3.github.io/master/verfiyme/citymodel/city.obj);
+            mtl: url(https://raw.githubusercontent.com/S1MB10T3/S1MB10T3.github.io/master/verfiyme/citymodel/city.mtl)”>
           </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
