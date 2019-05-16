@@ -7,7 +7,11 @@ title: Verfiy Me
 
     <a-scene embedded arjs>
       <a-marker preset="hiro">
-          <a-box position='0 0.5 0' material='color: yellow;'></a-box>
+          <a-entity
+            scale="0.01 0.01 0.01"
+            obj-model=”obj: url(city.obj);
+            mtl: url(city.mtl)”>
+          </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
