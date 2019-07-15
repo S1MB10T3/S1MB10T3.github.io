@@ -11,10 +11,10 @@ url: "S1MB10T3.net" # the base hostname & protocol for your site, e.g. http://ex
 collections:
   post:
     output: true
-    permalink: /blog/:title
+    permalink: /writings/:title
   gallery:
     output: true
-    permalink: /:title
+    permalink: /art/:title
   projects:
     output: true
     permalink: /project/:title
