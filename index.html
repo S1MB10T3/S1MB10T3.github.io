@@ -3,6 +3,7 @@ title: S1MB10T3
 ---
 
 {% include head.html %}
+
   <br />
     <header>
       	<h1 class="headertext">S1MB10T3</h1>
@@ -12,22 +13,18 @@ title: S1MB10T3
         </nav>
     </header>
 
-    <div class="container">
-      <div class="row">
-        <div id="feed">
-          <!-- This loops through the paginated posts -->
-          {% for art in site.gallery %}
-          <span class="three columns">
-            <a class="featuredimg" href="{{ art.url }}">
-              <img src="/assets/img/{{ art.image }}">
-            </a>
-          </span>
-          {% endfor %}
+    <div id="content">
+        <div class="feed">
+            <!-- This loops through the paginated posts -->
+            {% for art in site.gallery %}
+            <span class="block">
+              <a href="{{ art.url }}">
+                <img  class="featuredimg" src="/assets/img/{{ art.image }}">
+              </a>
+            </span>
+            {% endfor %}
         </div>
       </div>
-    </div>
-
-    <br />
 
     <footer>
       <nav class="navtext">

@@ -40,10 +40,6 @@ header {
 	padding-bottom: 20px;
 }
 
-.row {
-	margin: 0 auto;
-}
-
 /* Home Page */
 nav a {
 	padding: 0 5px;
@@ -60,28 +56,35 @@ nav a {
 	max-height: 400px;
 }
 
+.feed {
+	margin-top: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.block {
+	display: flex;
+	width: 480px;
+	height: 480px;
+	justify-content: center;
+	align-items: center;
+}
 
 .featuredimg {
-	position: relative;
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 400px;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	-webkit-transition: filter 0.33s;
 	transition: filter 0.33s;
 	overflow: hidden;
-	display: inline-block;
+	margin: auto;
 }
 
 .featuredimg:hover {
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(0%);
-}
-
-.featuredimg img {
-	position: absolute;
-	right: 0;
-	bottom: 0;
 }
 
 #message {
@@ -94,6 +97,8 @@ nav a {
 }
 
 #content {
+	max-width: 960px;
+	margin: 0 auto;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -104,4 +109,17 @@ nav a {
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+
+footer {
+	margin-top: 50px;
+	padding: 20px;
+}
+
+
+@media only screen and (max-width: 992px)  {
+	.feed {
+		justify-content: center;
+	}
 }
