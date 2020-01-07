@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Gugi|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|VT323&display=swap');
 
 html {
 	cursor: default;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Courier Prime', monospace;
 	color: #000;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Gugi', sans-serif;
+	font-family: 'VT323', monospace;
 }
 
 img {

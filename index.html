@@ -1,23 +1,36 @@
 ---
 title: S1MB10T3
 ---
+
 {% include head.html %}
   <br />
     <header>
-      	<h1 class="headertext anim-typewriter">S1MB10T3</h1>
-        <nav class="navtext anim-typewriter">
-          <a href="/projects">projects</a>
-          <a href="/art">art</a>
+      	<h1 class="headertext">S1MB10T3</h1>
+        <nav class="navtext">
           <a href="/writings">writings</a>
+          <a href="https://github.com/S1MB10T3">github</a>
         </nav>
-
-      <img src="/assets/img/glasses.gif" />
     </header>
 
+    <div class="container">
+      <div class="row">
+        <div id="feed">
+          <!-- This loops through the paginated posts -->
+          {% for art in site.gallery %}
+          <span class="three columns">
+            <a class="featuredimg" href="{{ art.url }}">
+              <img src="/assets/img/{{ art.image }}">
+            </a>
+          </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <br />
+
     <footer>
-      <nav class="navtext anim-typewriter">
-        <a href="/contact">contact</a>
-        <a href="https://github.com/S1MB10T3">github</a>
+      <nav class="navtext">
         <a href="https://www.instagram.com/S1MB10T3/">instagram</a>
       </nav>
     </footer>
