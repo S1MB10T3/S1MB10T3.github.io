@@ -1,6 +1,7 @@
 ---
 layout: art
 title: "fractured"
-image: 404.gif
+image: fractured.gif
 slug: "fractured"
+order: 100
 ---

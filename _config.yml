@@ -14,7 +14,4 @@ collections:
     permalink: /writings/:title
   gallery:
     output: true
-    permalink: /art/:title
-  projects:
-    output: true
-    permalink: /project/:title
+    permalink: /:title

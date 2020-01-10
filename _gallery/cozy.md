@@ -3,6 +3,7 @@ title: cozy.nyc
 layout: project
 logo: cozy.png
 image: 404.gif
+order: 1
 ---
 
 A site for neets...

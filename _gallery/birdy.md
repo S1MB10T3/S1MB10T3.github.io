@@ -3,6 +3,7 @@ layout: art
 title: "To ashes"
 image: birdy.gif
 slug: "birdy"
+order: 4
 ---
 
 <iframe src="https://player.vimeo.com/video/383399121" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

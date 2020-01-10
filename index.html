@@ -16,7 +16,8 @@ title: S1MB10T3
     <div id="content">
         <div class="feed">
             <!-- This loops through the paginated posts -->
-            {% for art in site.gallery %}
+            {% assign sorted = site.gallery | sort: 'order'  %}
+            {% for art in sorted %}
             <span class="block">
               <a href="{{ art.url }}">
                 <img  class="featuredimg" src="/assets/img/{{ art.image }}">

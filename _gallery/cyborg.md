@@ -3,6 +3,7 @@ layout: art
 title: "Cyborgs. Robots. and Automotons."
 image: cyborgs.gif
 slug: "robot"
+order: 2
 ---
 
 ![](/assets/img/cyborg/cyborg cover.jpg)

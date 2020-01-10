@@ -3,6 +3,7 @@ title: BUGS NYU
 layout: project
 logo: bugs.png
 image: 404.gif
+order: 100
 ---
 
 An open source website for an open source club! Visit [https://bugs-nyu.github.io/](https://bugs-nyu.github.io/)

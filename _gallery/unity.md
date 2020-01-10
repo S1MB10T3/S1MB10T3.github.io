@@ -3,6 +3,7 @@ title: Unity
 layout: project
 logo: unity.png
 image: 404.gif
+order: 100
 ---
 
 A open source smart home powered by [Open Assistant](https://github.com/openassistant) running on a RaspberryPi!

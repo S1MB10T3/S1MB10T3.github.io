@@ -89,7 +89,7 @@ nav a {
 }
 
 #message {
- padding: 0 20%;
+
 }
 
 .interviewImage {
@@ -98,6 +98,7 @@ nav a {
 }
 
 #content {
+	padding: 0 5%;
 	max-width: 960px;
 	margin: 0 auto;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -122,5 +123,26 @@ footer {
 @media only screen and (max-width: 992px)  {
 	.feed {
 		justify-content: center;
+	}
+}
+
+
+
+/*
+	Art Layout Page Styles
+*/
+.gallery {
+  columns: 2;
+	column-gap: 5px;
+}
+
+.gallery img {
+	display: inline-block;
+	width: 100%;
+}
+
+@media only screen and (max-width: 992px)  {
+	.gallery {
+	   columns: 1;
 	}
 }
