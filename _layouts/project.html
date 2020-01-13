@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <link href="index.css" rel="stylesheet">
 <body>
   <div id="header">
     <nav class="intro-nav navtext">
       <a onclick="goBack()">>back</a>
-      <h1>{{ page.title }}
     </nav>
-    <img id="headerMedia" class="headerimg" src="/assets/img/{{ page.image }}">
+    <img id="headerMedia" class="headerimg" src="/assets/img/{{ page.logo }}">
+    <p id="tag"> {{ page.tagline }} </p>
   </div>
   <div id="content">
     <article id="message">

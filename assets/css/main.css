@@ -119,6 +119,19 @@ footer {
 	padding: 20px;
 }
 
+.left {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+	text-align: left;
+	padding: 20px;
+}
+
+.right {
+  overflow: hidden;
+	text-align: left;
+	padding: 20px;
+}
 
 @media only screen and (max-width: 992px)  {
 	.feed {
