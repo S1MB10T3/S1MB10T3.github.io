@@ -3,6 +3,7 @@ title: BUGS NYU
 layout: project
 logo: bugs.png
 image: 404.gif
+slug: bugsnyu
 order: 100
 ---
 

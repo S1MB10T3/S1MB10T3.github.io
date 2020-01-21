@@ -133,7 +133,7 @@ footer {
 	padding: 20px;
 }
 
-@media only screen and (max-width: 992px)  {
+@media only screen and (max-width: 1080px)  {
 	.feed {
 		justify-content: center;
 	}
@@ -154,7 +154,7 @@ footer {
 	width: 100%;
 }
 
-@media only screen and (max-width: 992px)  {
+@media only screen and (max-width: 1080px)  {
 	.gallery {
 	   columns: 1;
 	}
