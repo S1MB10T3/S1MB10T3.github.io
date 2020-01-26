@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime|VT323&display=swap');
 
 html {
-	cursor: default;
+	cursor: crosshair;
 	font-family: 'Courier Prime', monospace;
 	color: #000;
 }
@@ -12,7 +12,7 @@ body {
 }
 
 a, a:visited {
-	cursor: default;
+	cursor: crosshair;
   color: #0000EE;
   text-decoration: none;
 	-webkit-transition: color 0.33s;
@@ -41,11 +41,21 @@ header {
 	padding-bottom: 20px;
 }
 
+br {
+   display: block;
+   margin: 10px 0;
+	 line-height:22px;
+}
+
 /* Home Page */
 nav a {
 	padding: 0 5px;
 }
 
+section::after, .u-cf {
+  content: "";
+  display: table;
+  clear: both; }
 
 /* Project Page */
 .projectTitle{
@@ -136,6 +146,12 @@ footer {
 @media only screen and (max-width: 1080px)  {
 	.feed {
 		justify-content: center;
+	}
+
+	.left,.right {
+		float: none;
+		text-align: center;
+		width: 100%;
 	}
 }
 
