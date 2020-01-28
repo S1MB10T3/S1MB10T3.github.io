@@ -13,7 +13,8 @@ permalink: /writings/
       {% for post in site.posts %}
       <span class="four columns">
         <a href="{{ post.url }}">
-        <img class="featuredimg" src="/assets/img/{{ post.image }}">
+          <img class="featuredimg" src="/assets/img/{{ post.image }}">
+          <h2>{{ post.title }}</h2>
         </a>
       </span>
       {% endfor %}
