@@ -4,6 +4,7 @@ title: "Be Happy"
 image: smile.gif
 slug: "happy"
 order: 100
+category: art
 ---
 
 We all should be happy...

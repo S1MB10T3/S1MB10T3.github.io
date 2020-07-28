@@ -5,6 +5,7 @@ logo: bugs/bugs.png
 image: bugs/bugs.png
 slug: bugsnyu
 order: 100
+category: design
 ---
 
 An open source website for an open source club!

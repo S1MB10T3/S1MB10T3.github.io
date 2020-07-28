@@ -3,32 +3,19 @@ title: S1MB10T3
 ---
 
 {% include head.html %}
-
-  <br />
-    <header>
-      	<h1 class="headertext">S1MB10T3</h1>
-        <nav class="navtext">
-          <a href="/writings">writings</a>
-          <a href="https://github.com/S1MB10T3">github</a>
-        </nav>
-    </header>
+{% include navbar.html %}
 
     <div id="content">
-        <div class="feed">
-            <!-- This loops through the paginated posts -->
-            {% assign sorted = site.gallery | sort: 'order'  %}
-            {% for art in sorted %}
-            <span class="block">
-              <a href="{{ art.url }}">
-                <img  class="featuredimg" src="/assets/img/{{ art.image }}">
-              </a>
-            </span>
-            {% endfor %}
-        </div>
-      </div>
+      <img class="featuredimg" src={{'/assets/img/83110/city.png' | relative_url }}>
+      <h2>Project 83110</h2>
+      <p>Love Yourself. Embrace Sin. </p>
+      <p><a href="/icarus">Check Out</a></p>
+    </div>
 
     <footer>
       <nav class="navtext">
+        <a href="https://dribbble.com/S1MB10T3">dribble</a>
+        <a href="https://github.com/S1MB10T3">github</a>
         <a href="https://www.instagram.com/S1MB10T3/">instagram</a>
       </nav>
     </footer>

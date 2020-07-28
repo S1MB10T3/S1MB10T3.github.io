@@ -4,6 +4,7 @@ title: "BUY IT. USE IT. BREAK IT. FIX IT."
 image: build.gif
 slug: "technologic"
 order: 100
+category: art
 ---
 
 ![](/assets/img/technologic/light.jpg)

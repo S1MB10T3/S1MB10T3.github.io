@@ -4,6 +4,7 @@ title: "Cyborgs. Robots. and Automotons."
 image: cyborgs.gif
 slug: "robot"
 order: 2
+category: art
 ---
 
 ![](/assets/img/cyborg/cyborg cover.jpg)

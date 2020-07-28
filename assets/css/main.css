@@ -19,8 +19,18 @@ a, a:visited {
 	transition: color 0.33s;
 }
 
+a:active {
+	color: #000;
+}
+
 a:hover {
-	color: #b0129b;
+	color: #000055;
+	text-decoration: underline;
+}
+
+#brandlink, #brandlink:hover, #brandlink:visited {
+	color: #000;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -1,0 +1,22 @@
+---
+title: Design
+layout: default
+permalink: /design/
+---
+
+<p> Just click a gif! </p>
+
+<div id="container">
+  <div class="feed">
+    {% assign sorted = site.gallery | sort: 'order'  %}
+    {% for design in sorted %}
+      {% if design.categories contains "design" %}
+        <span class="block">
+          <a href="{{ design.url }}">
+            <img  class="featuredimg" src="{{ site.baseurl }}/assets/img/{{ design.image }}">
+          </a>
+        </span>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

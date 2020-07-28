@@ -4,6 +4,7 @@ title: "Untitled 12.13.19"
 image: flowerpot.gif
 slug: "flowerpot"
 order: 2
+category: art
 ---
 
 ![mac](/assets/img/flowerpot/1.jpg)
