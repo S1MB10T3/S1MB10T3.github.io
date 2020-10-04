@@ -28,9 +28,15 @@ a:hover {
 	text-decoration: underline;
 }
 
-#brandlink, #brandlink:hover, #brandlink:visited {
+#brandlink, #brandlink a, #brandlink a:hover, #brandlink a:visited {
 	color: #000;
   text-decoration: none;
+	margin-bottom: 0 !important;
+}
+
+#tagline {
+	font-family: 'VT323', monospace;
+	margin-top: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
