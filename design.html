@@ -14,6 +14,7 @@ permalink: /design/
         <span class="block">
           <a href="{{ design.url }}">
             <img  class="featuredimg" src="{{ site.baseurl }}/assets/img/{{ design.image }}">
+            <p>{{ design.tags | join: ", "  }}</p>
           </a>
         </span>
       {% endif %}

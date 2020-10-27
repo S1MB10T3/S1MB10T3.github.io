@@ -6,6 +6,7 @@ image: m1lk.png
 order: 0
 order: 5
 category: design
+tags: [UI/UX]
 ---
 
 
@@ -19,9 +20,7 @@ cream chassis Macintosh with the hit of color on the Apple logo.
 
 ## Process
 
-![old-rice](/assets/img/rice-screenshot-old.png)
-
-_Background by Ilya Kuvshinov_
+![old-rice](https://raw.githubusercontent.com/S1MB10T3/dotfiles/master/screenshot.png)
 
 When picking colors for my rice I started out with a cream color and then from there
 work around a background that had a color palette that I wanted to go for.

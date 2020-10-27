@@ -1,6 +1,6 @@
 ---
 layout: art
-title: "To ashes"
+title: "To Ashes"
 image: birdy.gif
 slug: "birdy"
 order: 4
