@@ -3,7 +3,7 @@ layout: art
 title: "Be Happy"
 image: smile.gif
 slug: "happy"
-order: 100
+order: 10
 category: art
 ---
 

@@ -49,6 +49,11 @@ img {
 		object-fit: cover;
 }
 
+.small-img {
+	max-width: 50%;
+	max-height: 500px;
+}
+
 p img {
 	width: 60%;
 }
@@ -64,6 +69,10 @@ br {
 }
 
 /* Home Page */
+nav {
+	padding: 20px;
+}
+
 nav a {
 	padding: 0 5px;
 }
@@ -114,24 +123,16 @@ section::after, .u-cf {
 	filter: grayscale(0%);
 }
 
-#message {
-
-}
-
-.interviewImage {
-	padding: 50px;
-	width: 70%;
-}
-
 #content {
 	padding: 0 5%;
 	max-width: 960px;
 	margin: 0 auto;
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+	overflow-x: hidden;
 }
 
 @keyframes fadein {
@@ -141,7 +142,6 @@ section::after, .u-cf {
 
 
 footer {
-	margin-top: 50px;
 	padding: 20px;
 }
 
@@ -150,13 +150,32 @@ footer {
   width: 50%;
   overflow: hidden;
 	text-align: left;
-	padding: 20px;
+	padding: 0 20px;
+	margin: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
 }
 
 .right {
   overflow: hidden;
 	text-align: left;
-	padding: 20px;
+	padding: 0 20px;
+	margin: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+
+.center {
+	text-align: center;
+	align-content: center;
+}
+
+.clear {
+	clear: both;
 }
 
 @media only screen and (max-width: 1080px)  {
@@ -164,10 +183,11 @@ footer {
 		justify-content: center;
 	}
 
-	.left,.right {
+	.left, .right {
 		float: none;
 		text-align: center;
 		width: 100%;
+		padding: 0;
 	}
 }
 

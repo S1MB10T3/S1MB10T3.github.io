@@ -3,7 +3,7 @@ layout: art
 title: "Fractured"
 image: fractured.gif
 slug: "fractured"
-order: 100
+order: 8
 category: art
 ---
 

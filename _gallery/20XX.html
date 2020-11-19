@@ -1,0 +1,155 @@
+---
+title: 20XX Magizne Website
+layout: project
+logo: 20XX/Screen Compare.png
+slug: 20XX
+image: 20XX.png
+order: 1
+tagline:
+category: design
+tags: [UX/UI]
+---
+<style type="text/css">
+@font-face {
+    font-family: "Apex Mk3 Medium";
+    src: url({{ site.baseurl }}/assets/fonts/Apex Mk3-Medium.otf) format("opentype");
+}
+@font-face {
+    font-family: "Apex Mk3 ExtraLight";
+    src: url({{ site.baseurl }}/assets/fonts/Apex Mk3-ExtraLight.otf) format("opentype");
+}
+@font-face {
+    font-family: "Plat Nomor";
+    src: url({{ site.baseurl }}/assets/fonts/PlatNomor.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "RobotoMono Light";
+    src: url({{ site.baseurl }}/assets/fonts/RobotoMono-Light.ttf) format("truetype");
+}
+
+p.apexmedium {
+  font-family: "Apex Mk3 Medium";
+  font-size: 64px;
+}
+
+p.apexlight {
+  font-family: "Apex Mk3 ExtraLight";
+  font-weight: 300;
+  font-size: 42px;
+}
+
+p.platnomor {
+  font-family: "Plat Nomor";
+  font-size: 26px;
+  color: #17AD4B;
+}
+
+p.roboto {
+  font-family: "RobotoMono Light";
+  font-size: 22px;
+}
+
+</style>
+
+<h1>{{ page.title }}</h1>
+
+<section id="1">
+  <div class="left">
+    <h2>Minimal. Dynamic. Playful. </h2>
+    <p>
+      When discussing the goal of the site, we came to the conclusion that the site
+      should represet the future inspired by video games like Mega Man Battle Network,
+      Jet Set Radioand NieR:Automata. Aiming for a clean and simple style that is
+      also playful with animations and color choices.
+    </p>
+  </div>
+  <div class="right">
+    <h2>About</h2>
+    <p>
+      20XX Magizne is a publication showcasing New York City culture, artists, and
+      events with a focus on native New Yokers of color. 20XX Magizne have been
+      posting released it's articles on Medium and released first print issue
+      on Oct. 23rd 2020.
+    </p>
+  </div>
+</section>
+
+<h1>Design</h1>
+<br />
+
+<section id="2">
+  <h2>Articles</h2>
+  <div class="left">
+    <!-- Transition GIF of Article Directory Scrolling-->
+    <img src="{{ site.baseurl }}/assets/img/20XX/Article.png" alt="Article Design"/>
+  </div>
+  <div class="right">
+    <p>
+
+      The featured article will be a simple scroll/drag from the homepage(which
+      displays the title and images from that article) with all other articles
+      being accessible from the article directory via Navi.
+    </p>
+  </div>
+  <div class="clear" />
+  <div class="left">
+    <p>
+      The Article Directory displays all articles published on the site with 2wen-t
+      gaining a search feature to quary content.
+    </p>
+  </div>
+  <div class="right center">
+    <!-- Transition GIF of Article Directory Scrolling-->
+    <img class="small-img" src="{{ site.baseurl }}/assets/img/20XX/Article Directory.png" alt="Article Directory"/>
+  </div>
+</section>
+
+<section id="3">
+  <h2>Navigational Assistant - Navi</h2>
+
+  <div class="left center">
+    <img class="small-img" src="{{ site.baseurl }}/assets/img/20XX/2wen-t.gif" alt="2wen-t"/>
+    <p><i>"<b>2wen-t</b>" Modeled by Jonathan Yuen</i></p>
+  </div>
+
+  <div class="right">
+    <p>
+      To make the site playful and Dynamic we dicussed adding navigational assistant
+      instead of a simple navbar or menu. The 20XX Team designed 2wen-t . I added
+      the naviational/UX interactions.
+    </p>
+    <img class="" src="{{ site.baseurl }}/assets/img/20XX/navi-open.png" alt="nav open"/>
+  </div>
+</section>
+
+<section id="4">
+  <h2>Gallery</h2>
+  <div class="left">
+    <p>The gallery section of the site is for image heavy collections. With art and
+    photograpcy in the center of content.</p>
+  </div>
+  <div class="right">
+    <img src="{{ site.baseurl }}/assets/img/20XX/Gallery.png" alt="Article Directory"/>
+  </div>
+</section>
+
+<section id="5">
+  <h2>Colors and Type</h2>
+  <!-- Color Blocks  -->
+  <div>
+    <span class="color-block" style="background-color: #17AD4B;">#17AD4B</span>
+    <span class="color-block" style="background-color: #7DDEB3;">#7DDEB3</span>
+    <span class="color-block" style="background-color: #C1FDE3;">#C1FDE3</span>
+    <span class="color-block" style="background-color: #C4C4C4;">#C4C4C4</span>
+    <span class="color-block" style="background-color: #838383;">#838383</span>
+  </div>
+
+  <!-- Fonts -->
+  <div>
+    <p class="apexmedium">Title - Apex MK3 (Medium)</p>
+    <p class="apexlight">Tagline - Apex MK3 (Light)</p>
+    <p class="platnomor">SubHeader - Plat Nomor</p>
+    <p class="roboto">Body - RobotoMono</p>
+  </div>
+</section>
