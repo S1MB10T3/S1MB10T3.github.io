@@ -4,7 +4,7 @@ layout: project
 logo: bugs/bugs.png
 image: bugs/bugs.png
 slug: bugsnyu
-order: 100
+order: 3
 category: design
 tags: [Logo, UI/UX]
 ---
