@@ -18,3 +18,12 @@ BUGS is focused on the promotion of open source by engaging students in open sou
 # Web Design
 
 ![]({{ site.baseurl }}/assets/img/bugs/bugshome.png)
+
+<div class="left">
+  <img src="{{ site.baseurl }}/assets/img/bugs/Calendar.png" />
+</div>
+
+<div class="right">
+<img src="{{ site.baseurl }}/assets/img/bugs/Projects.png" />
+<img src="{{ site.baseurl }}/assets/img/bugs/Project Details.png" />
+</div>
