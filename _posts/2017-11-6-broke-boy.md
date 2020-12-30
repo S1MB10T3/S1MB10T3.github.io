@@ -2,7 +2,7 @@
 layout: post
 title:  "Broke Boy"
 image: broke.gif
-category: blog
+category: "sad boi"
 tag: "Finally Need To Get A Job!"
 ---
 
