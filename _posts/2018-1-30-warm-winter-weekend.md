@@ -2,7 +2,7 @@
 layout: post
 title:  "Warm Winter Fashion"
 image: 2.gif
-category: fashion
+category: blog
 tag: "Fit weather..."
 ---
 # A Warm Winter Weekend
