@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-		object-fit: cover;
+		/* object-fit: cover; */
 	  display: block;
 	  margin: 0 auto;
 	  max-width: 80%;
@@ -103,6 +103,15 @@ section::after, .u-cf {
 	text-align: center;
 }
 
+#bjork {
+	display: block;
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	justify-content: center;
+}
+
 .featuredimg {
 	display: block;
 	width: 400px;
@@ -115,6 +124,7 @@ section::after, .u-cf {
 	margin: 0 auto;
 	justify-content: center;
 	align-items: center;
+	object-fit: cover;
 }
 
 .featuredimg:hover {
