@@ -4,20 +4,18 @@ layout: default
 permalink: /art/
 ---
 
-<p> Just click a gif! </p>
+<p class="center"> Just click a gif! </p>
 
 <div id="container">
   <div class="feed">
-    {% assign sorted = site.gallery | sort: 'order'  %}
+    {% assign sorted = site.art | sort: 'order'  %}
     {% for art in sorted %}
-      {% if art.categories contains "art" %}
         <span class="block">
           <a href="{{ art.url }}">
             <img  class="featuredimg" src="{{ site.baseurl }}/assets/img/{{ art.image }}">
             <p>{{ art.title }}</p>
           </a>
         </span>
-      {% endif %}
     {% endfor %}
   </div>
 </div>

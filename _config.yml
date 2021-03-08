@@ -12,6 +12,9 @@ collections:
   post:
     output: true
     permalink: /blog/:title
-  gallery:
+  art:
     output: true
-    permalink: /:title
+    permalink: /art/:title
+  design:
+    output: true
+    permalink: /design/:title

@@ -1,0 +1,214 @@
+---
+title: 20XX Magazine Website
+layout: project
+logo: 20XX/Screen Compare.png
+slug: 20XX
+image: 20XX.png
+order: 2
+tagline:
+category: design
+tags: [UX/UI]
+---
+
+<style type="text/css">
+@font-face {
+    font-family: "Apex Mk3 Medium";
+    src: url({{ site.baseurl }}/assets/fonts/ApexMk3-Medium.otf) format("opentype");
+}
+@font-face {
+    font-family: "Apex Mk3 ExtraLight";
+    src: url({{ site.baseurl }}/assets/fonts/ApexMk3-ExtraLight.otf) format("opentype");
+}
+@font-face {
+    font-family: "Plat Nomor";
+    src: url({{ site.baseurl }}/assets/fonts/PlatNomor.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "RobotoMono Light";
+    src: url({{ site.baseurl }}/assets/fonts/RobotoMono-Light.ttf) format("truetype");
+}
+
+p.apexmedium {
+  font-family: "Apex Mk3 Medium";
+  font-size: 64px;
+}
+
+p.apexlight {
+  font-family: "Apex Mk3 ExtraLight";
+  font-weight: 300;
+  font-size: 42px;
+}
+
+p.platnomor {
+  font-family: "Plat Nomor";
+  font-size: 26px;
+  color: #17AD4B;
+}
+
+p.roboto {
+  font-family: "RobotoMono Light";
+  font-size: 22px;
+}
+
+</style>
+
+<!-- Intro -->
+<div>
+  <h1>{{ page.title }}</h1>
+  <p id="blurb">
+    20XX magazine is a publication showcasing New York City culture, artists, and
+    events with a focus on native New Yorkers of color. 20XX magazine have been
+    posting articles on Medium and released first print issue
+    on Oct. 23rd 2020.
+  </p>
+</div>
+
+<section id="1">
+
+  <h1> The Start </h1>
+
+  <div>
+    <h2>Minimal. Dynamic. Playful. </h2>
+    <p>
+      When discussing the goal of the site, we came to the conclusion that the site
+      should represent the future inspired by video games like Mega Man Battle Network,
+      Jet Set Radio and NieR:Automata. Aiming for a clean and simple style that is
+      also playful with animations and color choices.
+      <br />
+      <br />
+      When starting the design process I asked Mathew, the magazine founder to put
+      together a mood board before our initial design meeting to get an idea of the
+      visual/UI aspects of the site.
+    </p>
+
+    <img src="{{ site.baseurl }}/assets/img/20XX/mood_board.png" alt="Mood Board">
+
+    <p>During the initial meeting we came to the conclusion that the site should
+    focus on being more aesthetic/UI focus. The idea of a Navi "AI" similar to
+    "Clippy" from Mircosoft Office to help guide the user around.</p>
+  </div>
+
+</section>
+
+<section id="2">
+
+  <h1> The Proccess </h1>
+
+  <div>
+
+    <p>
+      After discussing the his goals for his publication, I built out a general
+      sitemap for someone visting the site along with wireframes. We also discussed
+      other elements of the site such as typefaces to use and what websites inspire
+      us for this project.
+    </p>
+
+    <div class="">
+      <h2>Wireframes</h2>
+      <img class="small-img" src="{{ site.baseurl }}/assets/img/20XX/wireframes/sitemap.jpg" alt="sitemap">
+      <img class="small-img" src="{{ site.baseurl }}/assets/img/20XX/wireframes/wireframes_1.jpg" alt="wireframes">
+      <img class="small-img" src="{{ site.baseurl }}/assets/img/20XX/wireframes/wireframes_2.jpg" alt="wireframes">
+    </div>
+
+    <div class="">
+      <h2>Navi Concept</h2>
+      <img src="{{ site.baseurl }}/assets/img/20XX/2wen-t_draft.jpg" alt="2wen-t draft">
+      <p class="center"><em>Designed by Mathew L.</em></p>
+    </div>
+
+    <!-- Color Blocks  -->
+    <div id="color-blocks">
+      <h2> Colors </h2>
+      <span class="color-block" style="background-color: #17AD4B;">#17AD4B</span>
+      <span class="color-block" style="background-color: #7DDEB3;">#7DDEB3</span>
+      <span class="color-block" style="background-color: #C1FDE3;">#C1FDE3</span>
+      <span class="color-block" style="background-color: #C4C4C4;">#C4C4C4</span>
+      <span class="color-block" style="background-color: #838383;">#838383</span>
+    </div>
+
+    <!-- Fonts -->
+    <div>
+      <h2> Fonts </h2>
+      <p class="apexmedium">Title - Apex MK3 (Medium)</p>
+      <p class="apexlight">Tagline - Apex MK3 (Light)</p>
+      <p class="platnomor">SubHeader - Plat Nomor</p>
+      <p class="roboto">Body - RobotoMono</p>
+    </div>
+
+    <p>After meetings go over wireframes, sketchs, web design inspo, and design
+      elements such as type and color I develop a couple of design drafts on
+      Adobe XD till I got to the final design and prototype.</p>
+  </div>
+
+</section>
+<h1> The Results </h1>
+  <video class="center" autoplay loop muted>
+    <source src="{{ site.baseurl }}/assets/video/20XX/article-flow.webm" type="video/webm" >
+    <source src="{{ site.baseurl }}/assets/video/20XX/article-flow.mp4" type="video/mp4" >
+  </video>
+  <div>
+
+    <h2> From Home to Featured </h2>
+
+    <p>
+      The featured article will be a simple scroll/drag from the homepage (which
+      displays the title and images from that article) with all other articles
+      being accessible from the article directory via Navi.
+    </p>
+
+  </div>
+
+  <div>
+
+    <h2>Navigational Assistant - Navi</h2>
+
+    <img src="{{ site.baseurl }}/assets/img/20XX/2wen-t.gif" alt="2wen-t"/>
+    <p class="center"><em>"<b>2wen-t</b>" Modeled by Jonathan Yuen</em></p>
+
+    <p>
+      To make the site playful and Dynamic we discussed adding navigational assistant
+      instead of a simple navbar or menu. The 20XX Team designed 2wen-t. I modified
+      the textures to fit to the color theme, the menu face for when it's not active,
+      and the navigational/UX interactions.
+    </p>
+    <video class="center" autoplay loop muted>
+      <source src="{{ site.baseurl }}/assets/video/20XX/navi.webm" type="video/webm" >
+      <source src="{{ site.baseurl }}/assets/video/20XX/navi.mp4" type="video/mp4" >
+    </video>
+  </div>
+
+  <div class="">
+    <h2> Article Directory </h2>
+    <video class="center" autoplay loop muted>
+      <source src="{{ site.baseurl }}/assets/video/20XX/scroll.webm" type="video/webm" >
+      <source src="{{ site.baseurl }}/assets/video/20XX/scroll.mp4" type="video/mp4" >
+    </video>
+    <p>
+      The Article Directory displays all articles published on the site with 2wen-t
+      gaining a search feature to query content.
+    </p>
+  </div>
+
+  <div class="">
+    <h2> Gallery </h2>
+    <video class="center" autoplay loop muted>
+      <source src="{{ site.baseurl }}/assets/video/20XX/gallery.webm" type="video/webm" >
+      <source src="{{ site.baseurl }}/assets/video/20XX/gallery.mp4" type="video/mp4" >
+    </video>
+    <p>The gallery section of the site is for image heavy collections. With art and
+    photography in the center of content.</p>
+  </div>
+
+<section>
+
+</section>
+<h1> Post Mortem </h1>
+
+<p>
+  While I left this as a note for the developer, 2wen-t needs to be more noticable.
+  One way to do so is to have dialog boxes pop up when the user first visits the
+  site. Something along the lines of "Hi, click me!"... idk something cute.
+</p>
+
+<section

@@ -1,0 +1,16 @@
+img {
+  display: inline-block;
+  max-width: 45%;
+  max-height: 500px;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  width: 40%;
+  margin: auto;
+}
+
+#message {
+  text-align: center;
+}

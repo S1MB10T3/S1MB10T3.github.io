@@ -4,14 +4,14 @@
   <link href="{{ site.baseurl }}/assets/css/project.css" rel="stylesheet">
 
 <body>
-  <div id="header">
+  <header>
     <nav class="intro-nav navtext">
       <a onclick="goBack()">>back</a>
     </nav>
     <img id="headerMedia" class="headerimg" src="{{ site.baseurl }}/assets/img/{{ page.logo }}">
     <p id="tag"> {{ page.tagline }} </p>
-  </div>
-  <div id="content">
+  </header>
+  <div id="container">
     <article id="message">
       {{ content }}
     </article>

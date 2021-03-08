@@ -6,10 +6,6 @@ html {
 	color: #000;
 }
 
-body {
-  text-align: center;
-	margin: 0;
-}
 
 a, a:visited {
 	cursor: crosshair;
@@ -28,6 +24,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+br {
+	line-height: 150%;
+}
+
 #brandlink, #brandlink a, #brandlink a:hover, #brandlink a:visited {
 	color: #000;
   text-decoration: none;
@@ -41,12 +41,15 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'VT323', monospace;
+	text-align: center;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
 		object-fit: cover;
+	  display: block;
+	  margin: 0 auto;
+	  max-width: 80%;
+	  max-height: 500px;
 }
 
 .small-img {
@@ -54,18 +57,13 @@ img {
 	max-height: 500px;
 }
 
-p img {
-	width: 60%;
-}
-
 header {
+	display: block;
+	text-align: center;
+	padding: 0 5%;
 	padding-bottom: 20px;
-}
-
-br {
-   display: block;
-   margin: 10px 0;
-	 line-height:22px;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 /* Home Page */
@@ -100,14 +98,13 @@ section::after, .u-cf {
 }
 
 .block {
-	display: flex;
 	width: 480px;
 	height: 480px;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
 }
 
 .featuredimg {
+	display: block;
 	width: 400px;
 	height: 400px;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -115,7 +112,9 @@ section::after, .u-cf {
 	-webkit-transition: filter 0.33s;
 	transition: filter 0.33s;
 	overflow: hidden;
-	margin: auto;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
 }
 
 .featuredimg:hover {
@@ -123,7 +122,7 @@ section::after, .u-cf {
 	filter: grayscale(0%);
 }
 
-#content {
+#container {
 	padding: 0 5%;
 	max-width: 960px;
 	margin: 0 auto;
@@ -143,30 +142,7 @@ section::after, .u-cf {
 
 footer {
 	padding: 20px;
-}
-
-.left {
-  float: left;
-  width: 50%;
-  overflow: hidden;
-	text-align: left;
-	padding: 0 20px;
-	margin: 0;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-
-}
-
-.right {
-  overflow: hidden;
-	text-align: left;
-	padding: 0 20px;
-	margin: 0;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-
+	text-align: center;
 }
 
 .center {
@@ -185,7 +161,6 @@ footer {
 
 	.left, .right {
 		float: none;
-		text-align: center;
 		width: 100%;
 		padding: 0;
 	}

@@ -2,19 +2,54 @@ h, h1, h2, h3 {
   text-align: center;
 }
 
+p {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.small-img {
+  max-width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+video {
+  display: block;
+  max-width: 80%;
+  max-height: 500px;
+  margin: 100px auto;
+  box-shadow: 3px 3px 3px;
+}
+
 /* add flex box for future update */
 section {
-  padding: 50px 0;
+  height: 100%;
+  padding: 10% 0;
   /* display: flex; */
   /* justify-content: center; */
 }
 
 div {
+  /* height: inherit; */
   padding-bottom: 20px;
+}
+
+#color-blocks {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .color-block {
   display: inline-block;
-  padding: 100px 50px;
+  padding: 50px 50px;
   font-weight: 600;
+}
+
+#blurb {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
 }
