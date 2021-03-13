@@ -14,12 +14,22 @@ p {
   text-align: center;
 }
 
+.mid-img {
+  max-width: 45%;
+  display: inline-block;
+  text-align: center;
+}
+
 video {
   display: block;
   max-width: 80%;
   max-height: 500px;
   margin: 100px auto;
   box-shadow: 3px 3px 3px;
+}
+
+img {
+  margin: 100px auto;
 }
 
 /* add flex box for future update */

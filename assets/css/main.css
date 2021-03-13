@@ -156,8 +156,14 @@ footer {
 }
 
 .center {
+	display: flex;
 	text-align: center;
 	align-content: center;
+	align-items: center;
+}
+
+.center-self {
+	text-align: center;
 }
 
 .clear {

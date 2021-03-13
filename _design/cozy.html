@@ -5,29 +5,33 @@ logo: cozy.png
 slug: cozy
 image: cube.png
 order: 3
-tagline: A site for neets...
+tagline: A site for artists...
 category: design
 tags: [UX/UI, Branding, React]
 ---
 
-<h1> Comeback Soon!</h1>
 
 <section id="1">
   <div class="left">
-    <h2> It's something... </h2>
+    <h1> It's something... </h1>
     <p>
       cozy.nyc is a ongoing project <a href="https://github.com/JimenezJC">Juan Jimenez</a>,
       <a href="https://github.com/nobodyhere2see">Sophia Setsu</a>, and I are working on.
-      The site was originally intended to be an online buying and selling marketplace,
-      but its purpose has changed over time to be a platform for creatives, makers,
-      and fans alike to discuss and share creative projects.
+      The site was originally intended to be an online buying and selling marketplace to
+      a platform for creatives, makers, and fans alike to discuss and share creative
+      projects. Now it's just a livestream platform focused for creatives in NYC.
 
       <br />
       <br />
 
-      We currently are working on the discussion board aspect of the site, a video
-      streaming directory, and a featured works area where users can post updates
-      for ongoing and finished projects.
+      You can read more about the road of failures on cozy on my blog
+      <a href="/blog/2021/03/05/old-cozy.html"> here</a>.
+    </p>
+
+    <h2> New Goal </h2>
+    <p>
+        Our new goal with cozy.nyc is to build a open livestreaming platform for NYC
+        creatives to show finished work or the creative procress.
     </p>
   </div>
   <div class="right">
@@ -86,4 +90,100 @@ tags: [UX/UI, Branding, React]
       other design elements like our logo.
     </p>
   </div>
+</section>
+
+<section id="3">
+
+  <h1> The Old Web Design </h1>
+
+  <p>
+    Users can post livestreams from websites like Twitch, Youtube, and Instagram
+    to the directory and invite other users to the streaming platform's chat.
+    <br/>
+    <br/>
+    The goal is to have a community that can watch and discuss videos and streams
+    together as they're happening, without having to move around different websites.
+  </p>
+
+  <h2> Wireframes </h2>
+
+  <div class="center">
+    <img class="mid-img" src="{{ site.baseurl }}/assets/img/cozy/wireframes/stream-home.png" alt="stream homepage wireframe">
+    <img class="mid-img"  src="{{ site.baseurl }}/assets/img/cozy/wireframes/stream.png" alt="stream page wireframe">
+  </div>
+
+
+  <h2> Old Design Mockups </h2>
+
+  <div class="center">
+    <img class="mid-img"  src="{{ site.baseurl }}/assets/img/cozy/designs/Stream Directory.png" alt="color-cube">
+    <img class="mid-img" src="{{ site.baseurl }}/assets/img/cozy/designs/Stream.png" alt="color-cube">
+  </div>
+
+  <p>
+    One issue with the original cozy.nyc designs was that I attemped to combine
+    to many colors. While every section of the site, i.e. streams, boards, etc,
+    had their own color theme, the themes themselves did not work so much with
+    the content diplayed and the goals of the application.
+  </p>
+  <p>
+    Since the team is focused on just the livestreaming features of the site the
+    old design did not have to hold to the same color theme rules.
+  </p>
+
+</section>
+
+<section>
+
+  <h1> Redesign </h1>
+
+  <h2> Home Page </h2>
+  <img src="{{ site.baseurl }}/assets/img/cozy/designs/new/home.png" alt="color-cube">
+
+  <p>
+    The homepage/stream directory is now focued on displaying all current streams
+    at the ease of a scroll. A recent caputure of the stream is displayed and info
+    such as the name, user, and views of the view is hidden until hovered. This
+    hopefully will put the content front and center rather then the views and whos
+    hosting the stream.
+  </p>
+
+  <p>
+    The order and size of the stream preview is based on views for now until a better
+    solution of order to get more people on to unheard artist is found.
+  </p>
+
+
+  <h2> Stream </h2>
+
+  <img src="{{ site.baseurl }}/assets/img/cozy/designs/new/stream-fullscreen.png" alt="color-cube">
+
+  <p>
+    A global chat is still kept for a sense of community amongst the site. There's
+    also a local/profile chat if a user allows it on their stream along with support
+    for 3rd Party chats from other platforms the video stream is taking place.
+ </p>
+
+  <div class="center">
+    <video class="center" autoplay playsinline loop muted>
+      <source src="{{ site.baseurl }}/assets/video/cozy/cozy-profile.webm" type="video/webm" >
+      <source src="{{ site.baseurl }}/assets/video/cozy/cozy-profile.mp4" type="video/mp4" >
+    </video>
+  </div>
+
+  <p>
+    A simple profile to get users on to other platforms to support artist. The goal
+    is not trying to be the next big platform for artist. It's just a place to share
+    content across a community big or small. 
+  </p>
+</section>
+
+<section>
+  <h1> The Results </h1>
+
+  <p>
+    Currently rebuilding the site to the new design and goals. So stay tuned and
+    join the team and community on discord at
+    <a href="https://discord.gg/3WSA2SG">https://discord.gg/3WSA2SG</a>!
+  </p>
 </section>
