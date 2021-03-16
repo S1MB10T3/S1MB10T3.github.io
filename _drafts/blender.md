@@ -1,10 +1,14 @@
 ---
 layout: post
 title:  "A Park Amphitheater and Trying to Improve in Blender"
-image: 404.gif
+image: 3d-wireframe.gif
 category: blog
 tag: ""
 ---
+
+<img src="{{ site.baseurl }}/assets/img/parkamp.png" />
+
+<img src="{{ site.baseurl }}/assets/img/parkamp-roof.png" />
 
 I need to go through the basics. Kinda released since I've been using blender
 to build stuff I need for class or an art piece, I have never sat down and practice
@@ -21,3 +25,10 @@ I have never been taught how to use Blender and all the tools it provides me.
 
 I should get to the basics and start recreating house objects like mugs, pans, shoes,
 and devices.
+
+<video class="center" autoplay playsinline loop muted>
+  <source src="{{ site.baseurl }}/assets/video/cookie.webm" type="video/webm" >
+  <source src="{{ site.baseurl }}/assets/video/cookie.mp4" type="video/mp4" >
+</video>
+
+<img src="{{ site.baseurl }}/assets/img/hello-render.png" />
