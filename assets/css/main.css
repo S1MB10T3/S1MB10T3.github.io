@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime|VT323&display=swap');
 
 html {
-	cursor: crosshair;
 	font-family: 'Courier Prime', monospace;
 	color: #000;
 }
 
 
 a, a:visited {
-	cursor: crosshair;
   color: #0000EE;
   text-decoration: none;
 	-webkit-transition: color 0.33s;
