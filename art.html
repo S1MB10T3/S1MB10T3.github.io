@@ -11,9 +11,8 @@ permalink: /art/
     {% assign sorted = site.art | sort: 'order'  %}
     {% for art in sorted %}
         <span class="block">
-          <a href="{{ art.url }}">
+          <a class="project-link" href="{{ art.url }}">
             <img  class="featuredimg" src="{{ site.baseurl }}/assets/img/{{ art.image }}">
-            <p>{{ art.title }}</p>
           </a>
         </span>
     {% endfor %}

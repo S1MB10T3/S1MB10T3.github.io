@@ -10,7 +10,7 @@ permalink: /blog/
     <div class="feed">
       {% for post in site.posts %}
       <span class="block">
-        <a href="{{ post.url }}">
+        <a class="project-link" href="{{ post.url }}">
           <img class="featuredimg" src="/assets/img/{{ post.image }}">
           <p>{{ post.title }}</p>
         </a>

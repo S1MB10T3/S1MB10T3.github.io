@@ -7,6 +7,7 @@ html {
 
 
 a, a:visited {
+	display: inline-block;
   color: #0000EE;
   text-decoration: none;
 	-webkit-transition: color 0.33s;
@@ -15,39 +16,29 @@ a, a:visited {
 
 a:active {
 	color: #000;
+	transition: all .5s ease-in-out;
 }
 
 a:hover {
 	color: #000055;
-	text-decoration: underline;
+	text-decoration: none;
+	transform: scale(1.2);
 }
 
 br {
 	line-height: 150%;
 }
 
-#brandlink, #brandlink a, #brandlink a:hover, #brandlink a:visited {
-	color: #000;
-  text-decoration: none;
-	margin-bottom: 0 !important;
-}
-
-#tagline {
-	font-family: 'VT323', monospace;
-	margin-top: 0;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'VT323', monospace;
-	text-align: center;
 }
 
 img {
 		/* object-fit: cover; */
 	  display: block;
 	  margin: 0 auto;
-	  max-width: 80%;
-	  max-height: 500px;
+	  max-width: 100%;
+	  max-height: 70vh;
 }
 
 .small-img {
@@ -64,70 +55,8 @@ header {
 	margin: 0 auto;
 }
 
-/* Home Page */
-nav {
-	padding: 20px;
-}
-
-nav a {
-	padding: 0 5px;
-}
-
-section::after, .u-cf {
-  content: "";
-  display: table;
-  clear: both; }
-
-/* Project Page */
-.projectTitle{
-	display: block;
-}
-
-#headerMedia {
-	max-width: 60%;
-	max-height: 400px;
-}
-
-.feed {
-	margin-top: 40px;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-}
-
-.block {
-	width: 480px;
-	height: 480px;
-	text-align: center;
-}
-
-#bjork {
-	display: block;
-	width: 50%;
-	height: 50%;
-	overflow: hidden;
-	margin: 0 auto;
-	justify-content: center;
-}
-
-.featuredimg {
-	display: block;
-	width: 400px;
-	height: 400px;
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-	filter: grayscale(100%);
-	-webkit-transition: filter 0.33s;
-	transition: filter 0.33s;
-	overflow: hidden;
-	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-	object-fit: cover;
-}
-
-.featuredimg:hover {
-	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-	filter: grayscale(0%);
+section {
+	min-height: 100vh;
 }
 
 #container {
@@ -139,8 +68,125 @@ section::after, .u-cf {
         -ms-animation: fadein 3s; /* Internet Explorer */
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
+
+/* Home Page */
+section::after, .u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+#bjork {
+	object-fit: cover;
+	display: block;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+#bio {
+	box-sizing: border-box;
+	/* padding: 10%; */
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 960px;
+}
+
+#bio>img {
+	object-fit: cover;
+	width: 300px;
+	padding: 30px;
+}
+
+#bio-text {
+	text-align: left !important;
+	width: 400px;
+}
+
+/* Navbar */
+
+#brandlink, #brandlink a, #brandlink a:hover, #brandlink a:visited {
+	color: #000;
+  text-decoration: none;
+	margin-bottom: 0 !important;
+}
+
+nav {
+	padding: 20px;
+}
+
+nav a {
+	padding: 0 5px;
+}
+
+header h1 {
+	font-size: 3em;
+}
+
+#tagline {
+	font-family: 'VT323', monospace;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+/* Project Page */
+.projectTitle{
+	display: block;
+}
+
+#headerMedia {
+	max-width: 60%;
+	max-height: 400px;
+}
+
+
+/* Collection List */
+
+.feed {
+	margin-top: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.block {
+	width: 480px;
+	height: 480px;
+	text-align: center;
+	transition: transform .5s ease-in-out;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	-webkit-transition: filter 0.33s;
+	transition: filter 0.33s;
+}
+
+.block:hover {
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(0%);
+}
+
+.featuredimg {
+	display: block;
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	object-fit: cover;
+}
+
+.featuredimg:hover {
+
+}
+
+
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -169,7 +215,9 @@ footer {
 	clear: both;
 }
 
-@media only screen and (max-width: 1080px)  {
+@media only screen and (max-width: 960px)  {
+
+
 	.feed {
 		justify-content: center;
 	}
@@ -178,26 +226,5 @@ footer {
 		float: none;
 		width: 100%;
 		padding: 0;
-	}
-}
-
-
-
-/*
-	Art Layout Page Styles
-*/
-.gallery {
-  columns: 2;
-	column-gap: 5px;
-}
-
-.gallery img {
-	display: inline-block;
-	width: 100%;
-}
-
-@media only screen and (max-width: 1080px)  {
-	.gallery {
-	   columns: 1;
 	}
 }

@@ -16,6 +16,6 @@ category: art
 ![](/assets/img/birdy/top.jpg)
 
 ## After
-![](/assets/img/birdy/burned-sid.jpg)
-![](/assets/img/birdy/burned-top.jpg)
-![](/assets/img/birdy/burned-front.jpg)
+![](/assets/img/birdy/burned-side.png)
+![](/assets/img/birdy/burned-top.png)
+![](/assets/img/birdy/burned-front.png)

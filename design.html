@@ -11,7 +11,7 @@ permalink: /design/
     {% assign sorted = site.design | sort: 'order'  %}
     {% for design in sorted %}
         <span class="block">
-          <a href="{{ design.url }}">
+          <a class="project-link" href="{{ design.url }}">
             <img  class="featuredimg" src="{{ site.baseurl }}/assets/img/{{ design.image }}">
             <p>{{ design.tags | join: ", "  }}</p>
           </a>
