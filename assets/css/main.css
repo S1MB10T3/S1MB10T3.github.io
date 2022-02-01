@@ -2,21 +2,23 @@
 
 html {
 	font-family: 'Courier Prime', monospace;
-	color: #000;
+	color: #fff;
+	background-color: #333;
 }
-
 
 a, a:visited {
 	display: inline-block;
-  color: #0000EE;
+  color: #fff;
   text-decoration: none;
 	-webkit-transition: color 0.33s;
 	transition: color 0.33s;
+	text-decoration: underline;
 }
 
 a:active {
 	color: #000;
 	transition: all .5s ease-in-out;
+	text-decoration: line-through;
 }
 
 a:hover {
@@ -56,11 +58,12 @@ header {
 }
 
 section {
-	min-height: 100vh;
+	/* min-height: 50%; */
 }
 
 #container {
-	padding: 0 5%;
+	display: flex;
+	padding: 0;
 	max-width: 960px;
 	margin: 0 auto;
 	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
@@ -112,7 +115,7 @@ section::after, .u-cf {
 /* Navbar */
 
 #brandlink, #brandlink a, #brandlink a:hover, #brandlink a:visited {
-	color: #000;
+	color: #fff;
   text-decoration: none;
 	margin-bottom: 0 !important;
 }
@@ -149,15 +152,17 @@ header h1 {
 /* Collection List */
 
 .feed {
-	margin-top: 40px;
+	padding-top: 100px;
+	max-width: 900px;
+	margin: 0 auto;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
+	align-content: flex-start;
 }
 
 .block {
-	width: 480px;
-	height: 480px;
+	width: 300px;
+	height: 300px;
 	text-align: center;
 	transition: transform .5s ease-in-out;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -173,8 +178,8 @@ header h1 {
 
 .featuredimg {
 	display: block;
-	width: 350px;
-	height: 350px;
+	width: 200px;
+	height: 200px;
 	overflow: hidden;
 	margin: 0 auto;
 	justify-content: center;

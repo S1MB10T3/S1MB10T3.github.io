@@ -1,0 +1,39 @@
+
+body {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+a, a:visited {
+	display: inline-block;
+  color: #0000EE;
+  text-decoration: none;
+	-webkit-transition: color 0.33s;
+	transition: color 0.33s;
+	text-decoration: underline;
+}
+
+h1 {
+  color: #000 !important;
+}
+
+header {
+  position: relative;
+  top: 30%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#brandlink, #brandlink a, #brandlink a:hover, #brandlink a:visited {
+	color: #000;
+  text-decoration: none;
+	margin-bottom: 0 !important;
+}
