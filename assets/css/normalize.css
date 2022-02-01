@@ -142,6 +142,17 @@ h1 {
   padding-top: 0.67em;
 }
 
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
 /**
  * Address styling not present in IE 8/9.
  */
