@@ -8,8 +8,13 @@ category: art
 ---
 
 <div class="video-wrapper">
-    <iframe class="responsive-iframe" src="https://media.s1mb10t3.net/FACES.mp4" frameborder="0"  allowfullscreen></iframe>
+    <video class="responsive-video" width="320" height="240" controls>
+        <source src="https://media.s1mb10t3.net/FACES.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
 </div>
+
+
 
 A short film about a dancer... a conflict between the Id, Ego, and Superego. The lines in the screenplay are all lines from various songs. Playlist of all songs used to come soon. 
 
