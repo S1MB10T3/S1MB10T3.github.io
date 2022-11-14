@@ -1,3 +1,1 @@
-# S1MB10T3.net
-
-## Personal Site/Portfolio
+![S1MB10T3](assets/img/profile.jpg)
