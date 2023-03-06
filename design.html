@@ -10,7 +10,7 @@ permalink: /design/
     {% assign sorted = site.design | sort: 'order'  %}
     {% for design in sorted %}
       <div role="listitem" class="design-study-item w-dyn-item w-col w-col-6">
-        <a href="{{ design.url }}" class="design-dir-img-wrapper w-inline-block"><img src="{{ site.baseurl }}/assets/img/{{ design.image }}" loading="lazy" style="filter:grayscale(100%)" alt="" class="dir-img"></a>
+        <a href="{{ design.url }}" class="design-dir-img-wrapper w-inline-block"><img src="{{ site.baseurl }}/assets/img/{{ design.image }}" loading="lazy" alt="" class="dir-img"></a>
       </div>
     {% endfor %}
 
