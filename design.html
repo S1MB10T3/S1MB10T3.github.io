@@ -4,18 +4,16 @@ layout: default
 permalink: /design/
 ---
 
-<p style="text-align: center;"> Just click a gif! </p>
-
-<div id="container">
-  <div class="feed">
+    <div class="container-main w-container">
+      <div class="design-list-wrapper w-dyn-list">
+        <div role="list" class="w-dyn-items w-row">
     {% assign sorted = site.design | sort: 'order'  %}
     {% for design in sorted %}
-        <span class="block">
-          <a class="project-link" href="{{ design.url }}">
-            <img  class="featuredimg" src="{{ site.baseurl }}/assets/img/{{ design.image }}">
-            <p>{{ design.tags | join: ", "  }}</p>
-          </a>
-        </span>
+      <div role="listitem" class="design-study-item w-dyn-item w-col w-col-6">
+        <a href="{{ design.url }}" class="design-dir-img-wrapper w-inline-block"><img src="{{ site.baseurl }}/assets/img/{{ design.image }}" loading="lazy" style="filter:grayscale(100%)" alt="" class="dir-img"></a>
+      </div>
     {% endfor %}
+
+         </div>
   </div>
 </div>
