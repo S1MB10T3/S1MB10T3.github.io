@@ -28,3 +28,46 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
 <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+
+<!-- Site-wide "under construction" notice -->
+<style>
+  #under-construction-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2147483647;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f0f0f;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  #under-construction-overlay .uc-inner {
+    max-width: 620px;
+  }
+  #under-construction-overlay h1 {
+    font-size: clamp(28px, 6vw, 52px);
+    letter-spacing: 0.04em;
+    margin: 0 0 0.5em;
+    text-transform: uppercase;
+  }
+  #under-construction-overlay p {
+    font-size: clamp(15px, 2.4vw, 20px);
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.85;
+  }
+  /* Prevent the page behind the overlay from scrolling/peeking through */
+  html.uc-locked, html.uc-locked body {
+    overflow: hidden !important;
+  }
+</style>
+<script>document.documentElement.classList.add('uc-locked');</script>
+<div id="under-construction-overlay" role="alert" aria-live="assertive">
+  <div class="uc-inner">
+    <h1>Under Construction</h1>
+    <p>This site is currently being rebuilt. Please check back soon.</p>
+  </div>
+</div>
