@@ -42,7 +42,8 @@
     color: #f5f5f5;
     text-align: center;
     padding: 24px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* Body text inherits 'Courier Prime', monospace from main.css */
+    font-family: 'Courier Prime', monospace;
   }
   #under-construction-overlay .uc-inner {
     max-width: 620px;
@@ -59,6 +60,13 @@
     margin: 0;
     opacity: 0.85;
   }
+  #under-construction-overlay .uc-link {
+    display: inline-block;
+    margin-top: 1.6em;
+    color: #f5f5f5;
+    font-size: clamp(15px, 2.4vw, 20px);
+    text-decoration: underline;
+  }
   /* Prevent the page behind the overlay from scrolling/peeking through */
   html.uc-locked, html.uc-locked body {
     overflow: hidden !important;
@@ -69,5 +77,6 @@
   <div class="uc-inner">
     <h1>Under Construction</h1>
     <p>This site is currently being rebuilt. Please check back soon.</p>
+    <a class="uc-link" href="https://www.figma.com/deck/ge4MG0S5NdKAWbQDXzsGtf" target="_blank" rel="noopener">View my portfolio &rarr;</a>
   </div>
 </div>
